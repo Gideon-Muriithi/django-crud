@@ -1,8 +1,0 @@
-django = "*"
-django-environ = "*"
-psycopg2-binary = "*"
-whitenoise = "*"
-python-decouple = "*"
-dj-database-url = "*"
-gunicorn = "*"
-django-heroku = "*"
