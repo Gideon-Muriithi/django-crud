@@ -96,7 +96,15 @@ WSGI_APPLICATION = "CRUD.Config.wsgi.application"
 #     }
 # }
 
-DATABASES = {"default": env.db("DATABASE_URL")}
+if config('MODE')=="dev":
+    DATABASES = {"default": env.db("DATABASE_URL")}
+
+else:
+    DATABASES = {
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
+   }
 
 
 # Password validation
