@@ -60,7 +60,7 @@ The application provides features for creating, viewing, editing and deleting re
 
 - Clone the mat-api repo and cd into it
     ```
-    git clone URL-----------
+    git clone https://github.com/Gideon-Muriithi/django-crud
     ```
 - Create  virtual environment
     ```
