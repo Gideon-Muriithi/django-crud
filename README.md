@@ -117,7 +117,7 @@ The application provides features for creating, viewing, editing and deleting re
 - If there is a bug , feature or chore that has not been included among the tasks, the contributor can add it only after consulting the owner of this repository and the task being accepted.
 -   The Contributor shall then create a branch off the `master` branch where they are expected to undertake the task they have chosen.
 -   After undertaking the task, a fully detailed pull request shall be submitted to the owners of this repository for review.
--   If there any changes requested ,it is expected that these changes shall be effected and the pull request resubmitted for review.Once all the changes are accepted, the pull request shall be closed and the changes merged into `development` by the owners of this repository.
+-   If there any changes requested ,it is expected that these changes shall be effected and the pull request resubmitted for review.Once all the changes are accepted, the pull request shall be closed and the changes merged into `master` by the owners of this repository.
 
 
 
