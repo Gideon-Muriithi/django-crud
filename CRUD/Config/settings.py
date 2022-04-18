@@ -29,7 +29,7 @@ env = environ.Env(DJANGO_READ_DOT_ENV_FILE=False)
 SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
